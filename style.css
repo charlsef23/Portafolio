@@ -477,6 +477,7 @@ html{
 }
 .portfolio .galeria .proyecto img{
     width: 100%;
+    max-width: 200px;
     display: block;
 }
 .portfolio .galeria .proyecto .overlay{

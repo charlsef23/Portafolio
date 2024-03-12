@@ -1,3 +1,9 @@
+let toggle = document.getElementById('toggle');
+
+toggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+});
+
 let menuVisible = false;
 //Función que oculta o muestra el menu
 function mostrarOcultarMenu(){

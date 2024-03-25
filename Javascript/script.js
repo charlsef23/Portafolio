@@ -1,8 +1,8 @@
-let toggle = document.getElementById('toggle');
+/*let toggle = document.getElementById('toggle');
 
 toggle.addEventListener('click', () => {
     document.body.classList.toggle('dark');
-});
+}); */
 
 let menuVisible = false;
 //Función que oculta o muestra el menu
@@ -42,4 +42,4 @@ function efectoHabilidades(){
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();
-}  
+}
